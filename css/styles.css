@@ -1,0 +1,60 @@
+*, *:before, *:after{
+  box-sizing:inherit;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+
+.nav-bar{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background: gray;
+  padding: 20px;
+  justify-content: flex-end;
+}
+
+
+.item{
+  align-self: flex-end;
+  flex-basis: auto;
+  width: 100px;
+  height: 25px;
+  margin: auto;
+  color:white;
+  flex-grow: 0;
+}
+
+.item:nth-child(1){
+  flex-grow: 2;
+}
+
+
+.search{
+  flex: 1;
+}
+
+.search input{
+  width: 100%;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.header{
+  text-align: center;
+  /*background:url('http://nique.net/wp-content/uploads/2015/07/ShakyKnees1-982x656.jpg')no-repeat center center fixed;*/
+  height: 100%;
+}
+
+.header img{
+  height: 100%;
+}
