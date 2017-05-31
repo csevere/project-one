@@ -63,10 +63,10 @@ a{
 
 .header{
   text-align: center;
-  /*background:url('http://nique.net/wp-content/uploads/2015/07/ShakyKnees1-982x656.jpg')no-repeat center center fixed;*/
   height: 100%;
 }
 
+<<<<<<< Updated upstream
 
     /* <!-- ***********************Carousel-Front-Page**************************** --> */
     
@@ -146,6 +146,8 @@ a{
     margin-right:10px;
     width:200px;
 }
+=======
+>>>>>>> Stashed changes
 
 /* animation properties for the carousel */
 .animate ul {
@@ -288,6 +290,7 @@ h2 {
 .controls button:hover,
 .controls button:focus {
   background: orange;
+<<<<<<< Updated upstream
 =======
 #carousel li:nth-child(8) {
     background:#68ce54;
@@ -297,4 +300,7 @@ h2 {
     background:#fb6b64;
 >>>>>>> master
 }
+=======
+
+>>>>>>> Stashed changes
 
