@@ -63,10 +63,13 @@ a{
 
 .header{
   text-align: center;
-  /*background:url('http://nique.net/wp-content/uploads/2015/07/ShakyKnees1-982x656.jpg')no-repeat center center fixed;*/
   height: 100%;
 }
 
+<<<<<<< HEAD
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
 
     /* <!-- ***********************Carousel-Front-Page**************************** --> */
     
@@ -145,6 +148,155 @@ a{
     height:200px;
     margin-right:10px;
     width:200px;
+<<<<<<< HEAD
+}
+=======
+>>>>>>> Stashed changes
+
+/* animation properties for the carousel */
+.animate ul {
+    -moz-transition:margin 1s;
+    -ms-transition:margin 1s;
+    -webkit-transition:margin 1s;
+    -o-transition:margin 1s;
+    transition:margin 1s;
+}
+
+/* different color for each of our items */
+#carousel li:nth-child(1) {
+    background:#6699ff;
+}
+
+#carousel li:nth-child(2) {
+    background:#eb66ff;
+}
+
+#carousel li:nth-child(3) {
+    background:#6bfb64;
+}
+
+#carousel li:nth-child(4) {
+    background:#fbb264;
+}
+
+#carousel li:nth-child(5) {
+    background:#f691e2;
+}
+
+#carousel li:nth-child(6) {
+    background:#fbf264;
+}
+
+#carousel li:nth-child(7) {
+    background:#66d9ff;
+}
+
+<<<<<<< HEAD
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  left: -100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transform: translateX(100%);
+}
+
+@media (min-width: 30em) {
+  .carousel {
+    left: -50%;
+    transform: translateX(50%);
+  }
+}
+
+@media (min-width: 40em) {
+  .carousel {
+    left: -33.33333%;
+    transform: translateX(33.33333%);
+  }
+}
+
+.carousel.is-reversing {
+  transform: translateX(-100%);
+}
+
+@media (min-width: 30em) {
+  .carousel.is-reversing {
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 40em) {
+  .carousel.is-reversing {
+    transform: translateX(-33.33333%);
+  }
+}
+
+.carousel.is-set {
+  transform: none;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-seat {
+  background: #ddd;
+  flex: 1 0 100%;
+  order: 2;
+}
+
+.carousel-seat:nth-child(even) {
+  background: #d5d5d5;
+}
+
+@media (min-width: 30em) {
+  .carousel-seat {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 40em) {
+  .carousel-seat {
+    flex-basis: 33.33333%;
+  }
+}
+
+.carousel-seat.is-ref {
+  order: 1;
+}
+
+h2 {
+  color: #aaa;
+  font-size: 7em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.6em 0;
+  text-align: center;
+}
+
+.controls {
+  padding: 1em;
+  text-align: center;
+}
+
+.controls button {
+  background: #aaa;
+  border: 0;
+  border-radius: 0.25em;
+  color: #eee;
+  padding: 0.5em 1em;
+}
+
+.controls button:hover,
+.controls button:focus {
+  background: orange;
+<<<<<<< Updated upstream
+=======
+=======
 }
 
 /* animation properties for the carousel */
@@ -185,11 +337,20 @@ a{
     background:#66d9ff;
 }
 
+>>>>>>> master
 #carousel li:nth-child(8) {
     background:#68ce54;
 }
 
 #carousel li:nth-child(9) {
     background:#fb6b64;
+<<<<<<< HEAD
+>>>>>>> master
 }
+=======
+
+>>>>>>> Stashed changes
+=======
+}
+>>>>>>> master
 
