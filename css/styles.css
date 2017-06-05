@@ -206,48 +206,4 @@ h2 {
     transition:margin 1s;
 }
 
-/* different color for each of our items */
-#carousel li:nth-child(1) {
-    background:#6699ff;
-}
 
-#carousel li:nth-child(2) {
-    background:#eb66ff;
-}
-
-#carousel li:nth-child(3) {
-    background:#6bfb64;
-}
-
-#carousel li:nth-child(4) {
-    background:#fbb264;
-}
-
-#carousel li:nth-child(5) {
-    background:#f691e2;
-}
-
-#carousel li:nth-child(6) {
-    background:#fbf264;
-}
-
-#carousel li:nth-child(7) {
-    background:#66d9ff;
-}
-
->>>>>>> master
-#carousel li:nth-child(8) {
-    background:#68ce54;
-}
-
-#carousel li:nth-child(9) {
-    background:#fb6b64;
-<<<<<<< HEAD
->>>>>>> master
-}
-=======
-
->>>>>>> Stashed changes
-=======
-}
->>>>>>> master
